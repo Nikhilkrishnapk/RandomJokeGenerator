@@ -1,0 +1,47 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.main{
+    position: relative;
+    width:100%;
+    height: 100vh;
+    background-image: url(./img/abstract-5533509_1920.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card {
+    color:black;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    height:500px;
+    backdrop-filter: blur(9px) saturate(121%);
+    -webkit-backdrop-filter: blur(9px) saturate(121%);
+    background-color: rgba(255, 255, 255, 0.35);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.card>i{
+    font-size: 50px;
+}
+.button{
+    padding:5px;
+    border: none;
+    border-radius: 8px;
+    background-color: black;
+    color:#ECDFCC;
+    font-family: "Josefin Sans", sans-serif;
+}
+.button:hover{
+    background-color: #1f1f1c;
+}
+.card>h1{
+    font-family: "Josefin Sans", sans-serif;
+}
+.card>p{
+    font-family: "Roboto Mono", monospace;
+}
